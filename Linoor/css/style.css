@@ -1,0 +1,85 @@
+*{outline: none!important;}
+body {overflow-x: hidden; font-family: 'Teko', sans-serif;}
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus, select:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="number"]:focus {transition: all 0.5s ease;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;outline:none;}
+select, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea, input[type="tel"] {/*-webkit-appearance: none;-moz-appearance: none;appearance: none;*/}
+a{text-decoration: none;color: #000;}
+
+p,h1,h2,h3,h4,h5,h6{
+padding: 0;margin: 0;
+}
+
+/* BANNER START */
+.bannerSec{background: url(../images/banner1.jpg);background-size: cover;height: 100vh;background-repeat: no-repeat;}
+.bannerSec .topleftimg {position: absolute;top: 0;left: 0;z-index: 1;}
+.bannerSec .toprightimg {position: absolute;top: 0;right: 0;z-index: 99;}
+.bannerSec .topbottomimg {position: absolute;bottom: 0;right: 0;z-index: 1;}
+.bannerSec:after {content: "";position: absolute;top: 0;right: 0;height: 100%;background: #000000a3;width: 100%;}
+.bannerSec .content {color: #fff;position: absolute;z-index: 99;display: flex;flex-direction: column;justify-content: center;height: 100%;margin-left: 3rem;}
+.bannerSec .content p {text-transform: uppercase;letter-spacing: 0.05em;font-weight: 400;font-size: 24px;margin-bottom: 20px;}
+.bannerSec .content h2 {font-size: 140px;text-transform: uppercase;line-height: 0.85em;font-weight: 600;letter-spacing: 0;}
+.bannerSec button.themeBtn {position: relative;padding: 19px 50px 16px;font-size: 18px;text-transform: uppercase;letter-spacing: 0.1em;overflow: hidden;background: #ffaa17;margin-top: 50px;border-radius: 8px;color: #000;transition: 1s all ease;line-height: 30px;border: none;width: 30%;}
+.bannerSec .cross {position: absolute;top: 0;width: 26px;background: #222429;opacity: 0.2;height: 100%;transition: 0.6s all ease;right: -15px;transform: skewX(-22deg)}
+.bannerSec button.themeBtn:hover .cross {transform: skewX(0deg);opacity: 1;width: 110%;z-index: -1;}
+.bannerSec button.themeBtn:hover {color: #fff;z-index: 99;}
+/* BANNER END */
+
+/* SERVICES START */
+.servicesSec{background: url(../images/pattern-1.png);background-size: cover;background-repeat: no-repeat;padding: 7rem 0;background-color: #222429;}
+.servicesSec .servicesContent h2 {font-size: 70px;line-height: 0.9em;font-weight: 400;color: #fff;}
+.servicesSec .servicesContent p {color: #999b9f;line-height: 34px;font-size: 18px;font-family: sans-serif;font-weight: 400;padding-top: 30px;}
+.servicesSec span.dot {color: #ffaa17;font-size: 70px;padding: 0;margin-left: 0.5rem;}
+.servicesSec .service {background: #1c1e22;padding: 50px 45px;position: relative;overflow: hidden;transition: 0.7s all ease;}
+.servicesSec .serviceBox h4 {color: #fff;line-height: 1em;opacity: 0.07;font-size: 50px;font-weight: 300;}
+.servicesSec .serviceBox {display: flex;justify-content: space-between;}
+.servicesSec .serviceBox .fa-computer {font-size: 70px;color: #ffaa17;transition: 0.7s all ease;}
+.servicesSec .serviceName h3 {line-height: 1.1em;letter-spacing: 1px;font-size: 20px;margin-top: 41px;max-width: 110px;font-weight: 400;color: #fff;transition: 0.7s all ease;}
+.servicesSec .servicesSkew {position: absolute;width: 100px;height: 80%;background: #000;right: -70px;bottom: 0;opacity: 0.2;transform: skewX(0deg) scaleX(0);z-index: 0;transition: 0.7s all ease;}
+.servicesSec .service:hover {background: #ffaa17;}
+.servicesSec .service:hover .servicesSkew {transform: skewX(-35deg);}
+.servicesSec .service:hover .fa-computer {color: #222429;}
+.servicesSec .service:hover .serviceBox h4 {color: #000;}
+.servicesSec .service:hover .serviceName h3 {color: #000;}
+/* SERVICES END */
+
+/* ABOUT START */
+.aboutSec {padding-top: 6rem;}
+.aboutSec .img1 img {height: 505px;margin-left: 110px;width: 460px;object-fit: cover;filter: grayscale(1);border-radius: 7px;}
+.aboutSec .img1:before {width: 15px;content: "";height: 280px;background: #ffaa17;position: absolute;top: 0;left: 0;border-radius: 8px;}
+.aboutSec .img1 {position: relative;}
+.aboutSec .img2 img {width: 430px;height: 302px;filter: grayscale(1);transform: translateY(-145px);border-radius: 7px;}
+.aboutSec button.themeBtn {position: relative;font-size: 18px;text-transform: uppercase;letter-spacing: 0.1em;overflow: hidden;background: #ffaa17;margin-top: 50px;border-radius: 8px;color: #000;transition: 1s all ease;line-height: 30px;border: none;width: fit-content;padding: 1rem 2rem;}
+.aboutSec .cross {position: absolute;top: 0;width: 26px;background: #222429;opacity: 0.2;height: 100%;transition: 0.6s all ease;right: -15px;transform: skewX(-22deg)}
+.aboutSec button.themeBtn:hover .cross {transform: skewX(0deg);opacity: 1;width: 110%;z-index: -1;}
+.aboutSec button.themeBtn:hover {color: #fff;z-index: 99;}
+.aboutSec .aboutContent h2 {font-size: 70px;line-height: 0.9;font-weight: 400;width: 85%;}
+.aboutSec span.dot {color: #ffaa17;font-size: 70px;padding: 0;margin-left: 0.5rem;}
+.aboutSec .aboutContent h5 {font-size: 26px;font-weight: 300;margin-bottom: 35px;color: #ffaa17;margin-top: 20px;width: 80%;}
+.aboutSec .aboutContent p {font-size: 16px;line-height: 34px;margin-bottom: 32px;font-family: sans-serif;width: 80%;color: #686a6f;font-weight: 500;}
+.aboutSec .checkList p {line-height: 3;position: relative;width: 100%;padding-left: 2rem;margin: 0;}
+.aboutSec .checkList p:before {position: absolute;font-family: 'FontAwesome';content: "\f00c";left: 0;color: #ffaa17;font-size: 18px;top: 0;bottom: 0;margin: auto 0;}
+.aboutSec .aboutBottom {display: flex;align-items: center;justify-content: space-between;position: relative;width: 75%;}
+.aboutSec .aboutBottom:after {position: absolute;}
+.aboutSec .since h4 {text-transform: uppercase;font-size: 20px;width: 65%;margin: 0 auto;text-align: center;font-weight: 300;}
+.aboutSec .since {border-radius: 50%;height: 90px;display: flex;color: #fff;align-items: center;background: #000;position: relative;width: 90px;}
+.aboutSec .since:before {position: absolute;left: -10px;top: 0;width: 80px;height: 80px;content: "";background: #e8e9e9;border-radius: 50%;z-index: -1;}
+.aboutSec .checkList {position: relative;}
+.aboutSec .checkList:After {position: absolute;content: "";height: 70%;width: 2px;right: -17%;background: #ffaa17;top: 0;bottom: 0;border-radius: 20px;margin: auto 0;}
+/* ABOUT END */
+
+/* PORTFOLIO START */
+.portfolioSec .portfolioImg img {height: 450px;width: 100%;object-fit: cover;border-radius: 7px;filter: grayscale(1);transition: 0.3s all ease;}
+.portfolioSec .portfolioImg {text-align: center;position: relative;overflow: hidden;}
+.portfolioSec .portfolioContent h6 {font-size: 18px;font-weight: 400;text-transform: uppercase;margin-bottom: 10px;position: relative;}
+.portfolioSec .portfolioContent h6:after {position: absolute;width: 13%;height: 12%;content: "";background: #ffaa17;bottom: 0;top: 0;left: 25%;margin: auto;}
+.portfolioSec .portfolioContent h4 {font-size: 22px;letter-spacing: 1px;text-transform: uppercase;font-weight: 500;}
+.portfolioSec .portfolioContent {text-align: left;width: 90%;height: 130px;background: #000;display: flex;flex-direction: column;justify-content: center;color: #fff;border-radius: 10px;position: absolute;padding-left: 2rem;bottom: -31%;right: 0;left: 0;margin: 0 auto;transition: 0.7s all ease;}
+.portfolioSec .portfolioImg:hover .portfolioContent {bottom: 6%;}
+.portfolioSec .portfolioImg:hover img {filter: grayscale(0);}
+.portfolioSec .nav-link {background: none !important;color: #686a6f;font-size: 24px;line-height: 40px;padding: 0;}
+.portfolioSec .nav-link.active {color: #000 !important;position: relative;}
+.portfolioSec .nav-link.active:after {position: absolute;bottom: 0;width: 120%;height: 10%;background: #ffaa17;content: "";left: 0;border-radius: 10px;}
+.portfolioSec .nav {display: flex;gap: 2.5rem;}
+.portfolioSec .navflex {display: flex;justify-content: space-between;margin-bottom: 3rem;}
+.portfolioSec .navheadings h2 {font-size: 70px;line-height: 0.9;font-weight: 400;}
+.portfolioSec span.dot {color: #ffaa17;font-size: 70px;padding: 0;margin-left: 0.5rem;}
+/* PORTFOLIO END */
