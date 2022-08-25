@@ -1,0 +1,301 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.helpcontent h2 {font-size: 75px;font-weight: bold;text-transform: uppercase;}
+
+.helpcontent p {font-size: 22px;font-weight: 400;width: 72%;margin: 0 auto;padding: 1rem 0 3rem;}
+
+.helpcontent img {height: 575px;object-fit: contain;width: 100%;}
+
+.position {position: relative;}
+
+img.icon1 {position: absolute;top: 2%;left: -32%;height: 200px;}
+
+img.icon2 {position: absolute;left: -35%;top: 60%;opacity: 0.3;height: 280px;}
+
+img.icon3 {position: absolute;top: 9%;right: -31%;height: 300px;}
+
+img.icon4 {position: absolute;top: 74%;right: -31%;height: 200px;}
+
+
+
+
+.communitycontent h2 {font-size: 60px;font-weight: bold;text-transform: uppercase;padding-bottom: 2rem;color: #fff;}
+
+.communitycontent p {font-size: 24px;width: 96%;color: #fff;}
+
+.sectionCommunity .row {display: flex;flex-direction: row;justify-content: center;align-items: center;}
+
+.communityimage img {width: 100%;z-index: 3 !important;position: relative;}
+
+.sectionCommunity {background: #08A2CB;padding: 3rem 0;}
+
+button.btn.btn-primary {background: #fff;margin-top: 2rem;color: #EBB033;border: none;font-weight: 600;font-size: 25px;padding: 10px 4rem;}
+
+.positioncommunity {position: relative;}
+
+.absouluteicons img {position: absolute;}
+
+img.dots {top: -6%;left: -23%;}
+
+img.cubes {top: 88%;left: -9%;height: 75px;filter: brightness(100);}
+
+img.hole {bottom: -22%;filter: brightness(100);height: 200px;right: 41%;opacity: 0.2;}
+
+img.circle1 {bottom: 0;right: -38%;top: 9%;}
+
+img.circle2 {bottom: 0;height: 300px;right: -30%;top: 50%;}
+
+.box {border: 1px solid #fff;height: 61px;width: 17%;top: 70%;right: 82%;border-radius: 5px;position: absolute;}
+
+
+
+
+.contentchill h2 {font-size: 45px;font-weight: 700;text-align: center;color: #244B68;}
+
+.contentchill h3 {text-align: center;font-size: 22px;width: 46%;margin: 0 auto;padding-top: 1rem;}
+
+.boxes {background: #F36F21;padding: 2rem 0rem 3rem 3rem;height: 294px;clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);}
+
+.sectionchill {padding: 6rem 0;}
+
+.curvebox {padding-top: 4rem;}
+
+.boxes h3 {color: #fff;font-weight: 700;}
+
+.boxes p {color: #fff;margin-top: 1rem;width: 74%;}
+
+.boxes button.btn.btn-primary1 {color: #F36F21;background: #fff;font-weight: 600;padding-right: 1rem;padding-left: 1rem;margin-top: 1rem;}
+
+
+.blue {
+    background: #00BDF2;
+    padding: 2rem 0rem 3rem 3rem;
+    height: 294px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+.blue button.btn.btn-primary1 {color: #00BDF2;background: #fff;font-weight: 600;padding-right: 1rem;padding-left: 1rem;margin-top: 1rem;}
+
+
+
+
+
+.serviceheading h2 {font-size: 80px;font-weight: bold;text-align: center;margin-bottom: 3rem;}
+.service {position: relative;}
+.service .serCntnt {position: absolute;top: 0;left: 0;width: 100%;height: 100%;align-items: center;justify-content: center;display: flex;flex-direction: column;padding: 0 2rem;text-align: center;background: rgb(0 0 0 / 74%);opacity: 0;transition: 1s all;}
+.service .border {position: absolute;top: 1.2rem;left: 1.2rem;width: 90%;height: 90%;border: 5px solid #fff!important;z-index: 9;opacity: 0;transition: 1s all;}
+.service:hover .border,.service:hover .serCntnt {opacity: 1;}
+.service .serCntnt h2 {font-size: 40px;color: #EBB033;text-transform: uppercase;font-weight: 700;}
+.service .serCntnt .btn.btn-primary {background: none;color: #EBB033;border: none;font-size: 18px;font-weight: 600;padding: 0;margin: 0;}
+
+
+
+.orange {background: #F36F21;}
+.mapCntnt {color: #fff;width: 60%;margin: 0 auto;padding-top: 7rem;}
+.mapCntnt h2 {font-weight: 700;font-size: 45px;margin-bottom: 2em;}
+.mapCntnt h3 {font-size: 40px;font-weight: 600;margin-bottom: 2em;}
+.mapCntnt h4 {font-size: 26px;font-weight: 700;}
+
+
+
+
+.songscontent h5 {color: #92AF40;font-size: 18px;}
+
+.songscontent h3 {font-size: 35px;font-weight: 400;padding: 1rem 0;line-height: 1.2;}
+
+.songscontent p {font-size: 16px;font-weight: 400;color: #959694;width: 83%;}
+
+.songscontent .btn.btn-primary {background: #7E1218;border: none;padding: 10px 35px;font-size: 19px;margin-top: 2rem;color:#fff}
+
+
+.songscontent {margin-left: 42%;}
+
+.sudanbox h3 {font-size: 40px;}
+
+.sudanbox h5 {font-size: 18px;color: #92af68;}
+
+.sudanbox {height: 400px;background: #fff;width: 47%;padding: 3rem;}
+
+li {font-size: 13px;font-weight: 600;padding-top: 1rem;}
+
+.sudanbox p {font-size: 16px;color: #959694;padding-top: 2rem;}
+
+
+
+.postionguns {position: relative;}
+
+.guns img {width: 100%;}
+
+.guns h3 {position: absolute;color: #fff;font-size: 18px;text-align: center;width: 80%;bottom: 67px;font-weight: 700;right: 11%;}
+
+.guns h4 {color: red;font-size: 30px;font-weight: 600;position: absolute;bottom: 24px;right: 33%;}
+
+.productsgap {padding-top: 3rem;padding-bottom: 4rem;}
+
+
+.productsheading h1 {font-size: 60px;color: #fff;text-align: center;padding: 3rem;}
+
+.aboutposition {position: relative;}
+
+.About img {position: absolute;left: -9%;height: 657px;width: 100%;}
+
+.About h2 {position: absolute;top: 0;right: 84px;font-size: 60px;color: #fff;background: #000;text-align: center;z-index: 3;padding: 0.5rem;}
+
+.redbox {width: 8%;background: red;position: absolute;top: 59px;right: 198px;height: 40px;z-index: 1;}
+
+.AboutContent h2 {font-size: 90px;font-weight: 700;opacity: 0.8;color: #fff;margin-bottom: 2rem;}
+
+.AboutContent p {width: 51%;font-size: 18px;color: #fff;}
+
+.AboutContent .btn.btn-secondary {font-size: 23px;margin-top: 2rem;border: none;font-weight: 700;color: #fff;background: none;}
+
+span.red {background: red;padding: 2px 4px 2px 7px;}
+
+.sectionGuns{
+    background-image: url(../images/bggun.png);height: 1755px;background-size: 100% 100%;position: relative;z-index: 1;}
+
+
+input#fname {border: none;background: none;}
+
+.borderbottom {margin-top: 2rem;border-bottom: 2px solid #fff; width: 65%;}
+    
+.Newsletterheading h2 {font-size: 60px;color: red;font-weight: 600;}
+
+.Newsletterheading .btn.btn-primary {border: none;background: red;color: #fff;font-weight: 700;font-size: 24px;margin-top: 3rem;padding: 0.5rem 2rem;}
+
+.sectionNews{background: url(../images/bgnewsletter.png);background-size: cover;background-repeat: no-repeat;position: relative;padding: 6rem 0;z-index: 1;}
+
+label {color: #fff;font-size: 21px;}
+
+footer {background: #000;padding:  4rem 0;}
+
+.footercol1 img {width: 100%;margin-bottom: 3rem;}
+
+footer h3 {color: #fff;font-size: 25px;font-weight: 600;}
+
+footer p {color: #fff;font-size: 18px;}
+
+footer hr {border: 3px solid #FF0008;width: 80%;}
+
+i.fa.fa-solid.fa-phone {color: #fff;}
+
+i.fa.fa-solid.fa-envelope {color: #fff;}
+
+.sectiongallery{background: url(../images/gunsgallery.png);}
+
+.sectionGuns:after {position: absolute;content: "";width: 100%;height: 100%;background: rgb(0 0 0 / 51%);top: 0;left: 0;z-index: -1;}
+
+.bannercontent h1 {font-size: 64px;color: red;margin-bottom: 3rem;font-weight: 700;}
+
+.bannercontent h2 {font-weight: 600;color: #fff;}
+
+.sectiongunsbanner{background: url(../images/gunsbanner.png);background-size: 100% 100%;background-repeat: no-repeat;height: 800px;z-index: 1;position: relative;}
+
+.sectiongunsbanner:after {position: absolute;content: "";width: 100%;height: 100%;background: rgb(0 0 0 / 51%);top: 0;left: 0;z-index: -1;}
+
+.bannercontent {position: absolute;left: 6%;top: 32%;}
+
+.bannercontent {position: absolute;left: 6%;top: 32%;}
+
+.footercol2 {position: relative;left: 20%;}
+
+.footercol3 {position: relative;
+    left: 20%;}
+
+.footercol4 {position: relative;
+    left: 20%;}
+
+.sectionNews:after {content: "";position: absolute;top: 0;right: 0;background: rgb(0 0 0 / 72%);width: 55%;height: 100%;z-index: -1;}
+
+
+.content h3 {
+    font-size: 40px;
+    color: #9F48A5;
+}
+
+.laptopImg img {
+    width: 100%;
+    height: 100vh;
+}
+
+.content h2 {
+    font-size: 57px;
+    color: #88BD3A;
+    text-transform: uppercase;
+}
+
+button.startworkBtn {
+    padding: 15px 30px;
+    border-radius: 35px;
+    border: none;
+    background: #9F48A5;
+    color: #fff;
+    margin-bottom: 52px;
+    font-weight: 500;
+}
+
+.laptopitems {
+    background: #88bd3a;
+    width: 423px;
+    height: 428px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.laptopitems img {
+    margin-top: 54px;
+    margin-bottom: 28px;
+}
+
+.laptopitems h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.laptopitems p {
+    color: #fff;
+    font-size: 18px;
+    padding: 0 1rem;
+}
+
+.skyblue {background: #3EBBEC;}
+
+.items {
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+}
+
+.whychoosecntent {
+    text-align: right;
+}
+
+.whychoosecntent p {padding-left: 15rem;}
+
+.content {
+    transform: translateX(-275px);
+}
+
+section.whychose .row {
+    align-items: center;
+}
+
+
+.laptopImg:before {
+    background: linear-gradient(270deg, #000000ab, transparent);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+}
+
+.laptopImg {
+    position: relative;
+}
