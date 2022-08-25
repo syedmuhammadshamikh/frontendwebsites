@@ -1,0 +1,232 @@
+*{outline: none!important;}
+body {overflow-x: hidden; font-family: 'Montserrat', sans-serif;}
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus, select:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="number"]:focus {transition: all 0.5s ease;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;outline:none;}
+select, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea, input[type="tel"] {/*-webkit-appearance: none;-moz-appearance: none;appearance: none;*/}
+a{text-decoration: none;color: #000;}
+
+h1{font-size: 80px;font-weight: bold;}
+h2{font-size: 60px;}
+h3{font-size: 30px;}
+p{font-size: 20px;}
+q{font-size: 25px;}
+
+
+
+/* HELP SECTION START */
+
+.helpcontent h2 {
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+
+.helpcontent {
+    padding: 58px 0;
+}
+
+.sectionhelp {
+    background-color: #3DE2AD;
+    background-size: cover;
+    background-image: url(../images/helpbg.png);
+    color: #fff;
+}
+
+/* HELP SECTION END */
+
+
+/* SERVICE SECTION START */
+
+.sliderservices .slick-arrow {
+    display: none !important;
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 2rem 0 0 0;
+    padding: 0;
+}
+
+li.slick-active{ 
+    background-color: red !important;
+    border: blue !important;
+}
+
+
+.slick-dots li {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-content h3{
+    margin-top: 58px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.sectionservices{padding: 4rem 0;}
+
+.services-content img {
+    height: 130px;
+}
+
+
+/* SERVICE SECTION END */
+
+/* PATIENT SECTION START */
+
+.patientcontent {
+    padding: 77px 0;
+}
+
+.sectionpatient {
+    background-color: #3DE2AD;
+}
+
+.patientcontent h2 {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.patientcontent img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.patientcontent p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 72%;
+}
+
+/* PATIENT SECTION END */
+
+/* FEEDBACK SECTION START */
+
+.feedbackcontent {
+    padding: 77px 0;
+}
+
+.feedbackcontent h2 {
+    font-weight: 600;
+    margin-bottom: 52px;
+}
+
+.feedbackcontent img {
+    width: 300px;
+    height: 190px;
+    margin-bottom:28px;
+}
+
+
+.feedbackcontent p {
+    font-size: 25px;
+    width: 73%;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.sectionfeedback {
+    background-color: #F3FEFA;
+}
+
+/* FEEDBACK SECTION END */
+
+/* DOCTOR SECTION START */
+
+.doctorimg img {
+    width: 100%;
+}
+
+.sectiondoctor .container {
+    padding: 113px 0;
+}
+
+
+.doctorcontent h2 {
+    font-weight: bold;
+    margin-top: 99px;
+    margin-bottom: 52px;
+}
+
+.doctorcontent p {
+    font-size: 25px;
+    width: 150%;
+    margin-bottom: 24px;
+}
+
+.doctorcontent .btn {font-size: 33px;font-weight: 600;padding: 11px 32px;border-color: #3DE2AD;background: #3DE2AD;}
+
+.doctorcontent {
+    padding-left: 111px;
+}
+
+/* DOCTOR SECTION END */
+
+/* RELIEF SECTION START */
+
+.reliefcontent {
+    padding: 35px 0;
+}
+
+.reliefcontent h2 {
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+
+.reliefcontent p {
+    font-size: 25px;
+    margin-bottom: 52px;
+}
+
+.reliefcontent .btn {
+    font-size: 33px;
+    font-weight: 600;
+    padding: 31px 23px;
+    color: #3DE2AD;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.sectionrelief {
+    background-color: #3DE2AD;
+    color: #fff;
+}
+
+/* RELIEF SECTION END */
+
+/* FOOTER SECTION START */
+
+.footercontent {
+    padding: 62px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.sectionfooter {
+    background-color: #6B6B6B;
+}
+
+.footercontent p {
+    font-size: 25px;
+}
+
+/* FOOTER SECTION END */
