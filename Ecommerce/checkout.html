@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Checkout</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/boxicons.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <main class="Checkoutwrapper">
+    <!-- HEADER START -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="./index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">WOMEN'S</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MEN'S</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="./shop.html">SHOP<span class="sr-only">(current)</span></a>
+            </li>
+
+            <div class="dropdown">
+              <button class="dropbtn">Pages</button>
+              <div class="dropdown-content">
+                <a href="./product details.html">Product Details</a>
+                <a href="./shop cart.html">Shop Cart</a>
+                <a href="./checkout.html">Checkout</a>s
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="toprightIcons">
+          <p>Login/Register</p>
+          <i class="fa fa-solid fa-magnifying-glass"></i>
+          <i class="fa fa-solid fa-heart"></i>
+          <i class="fa fa-solid fa-bag-shopping"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- BILLING DETAILS SECTION START -->
+    <section class="billingSec pt-5 pb-5">
+      <div class="container">
+        <div class="col-lg-12">
+          <div class="topheading">
+            <p>Have a coupon? Click here to enter your code.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="billingheading">
+                  <h5>BILLING DETAILS</h5>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="firstname">
+                  <label for="fname">First Name</label>
+                  <input type="text" class="fnameField">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="lastname">
+                  <label for="lname">Last Name</label>
+                  <input type="text" class="lnameField">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="country">
+                  <label for="country">Country</label>
+                  <input type="text" class="countryField">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="address">
+                  <label for="address">Address</label>
+                  <input type="text" class="adressField" placeholder="Street Address">
+                  <input type="text" class="adressField" placeholder="Apartment. suit, unite ect (optional)">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div>
+                  <label for="towncity">Town/City</label>
+                  <input type="text" class="towncityField">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="country">
+                  <label for="countrystate">Country/State</label>
+                  <input type="text" class="countrystateField">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="postcode">
+                  <label for="postcode">Postcode/Zip</label>
+                  <input type="text" class="postcodeField">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="phone">
+                  <label for="phone">Phone</label>
+                  <input type="text" class="phoneField">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="email">
+                  <label for="email">Email</label>
+                  <input type="text" class="emailField">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="createcheckbox">
+                  <input type="checkbox">
+                  <label for="checkbox">Create an account?</label>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="paragraphbilling">
+                  <p>Create am acount by entering the information below. If you are a returing customer login at the
+                    top of the page</p>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="password">
+                  <label for="accountpw">Account Password</label>
+                  <input type="" class="passwordField">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="checkbox2">
+                  <input type="checkbox">
+                  <label for="checkbox">Note about your order, e.g, special noe for delivery</label>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="ordernotes">
+                  <label for="ordernotes">Order Notes</label>
+                  <input type="text" class="ordernotes"
+                    placeholder="Note about your order, e.g, special noe for delivery">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="yourorder">
+              <h5>YOUR ORDER</h5>
+              <div class="ullist1">
+                <ul>
+                  <li class="text">Product <span class="rightspan">Total</span></li>
+                  <li>01. Chain buck bag<span class="rightspan">$ 300.0</span></li>
+                  <li>02. Zip-pockets pebbled<br>tote briefcase<span class="rightspan">$ 170.0</span></li>
+                  <li>03. Black jean<span class="rightspan">$ 170.0</span></li>
+                  <li>04. Cotton shirt<span class="rightspan">$ 110.0</span></li>
+                </ul>
+              </div>
+              <div class="ullist2">
+                <ul>
+                  <li>Subtotal<span class="rightspanred">$ 750.0</span></li>
+                  <li>Total<span class="rightspanred">$ 750.0</span></li>
+                </ul>
+              </div>
+              <div class="bottomYourOrder">
+                <div class="checks">
+                  <input type="checkbox">
+                  <label for="createaccount">Create an account?</label>
+                </div>
+                <p>Create am acount by entering the information below. If you are a returing customer login at the top
+                  of the page.</p>
+                <div class="checks">
+                  <input type="checkbox">
+                  <label for="createaccount">Check payment</label>
+                </div>
+                <div class="checks">
+                  <input type="checkbox">
+                  <label for="createaccount">PayPal</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BILLING DETAILS SECTION END -->
+
+    <!-- HOVER SECTION START -->
+    <section class="hoverSec pb-5">
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-lg-2 col-sm-6 p-0">
+            <div class="hoverBox">
+              <img src="./images/hoverimg1.jpg" alt="" width="100%">
+              <div class="icons text-center">
+                <div class="hoverContent">
+                  <i class="fa fa-brands fa-instagram"></i>
+                  <a href="">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6 p-0">
+            <div class="hoverBox">
+              <img src="./images/hoverimg2.jpg" alt="" width="100%">
+              <div class="icons text-center">
+                <div class="hoverContent">
+                  <i class="fa fa-brands fa-instagram"></i>
+                  <a href="">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6 p-0">
+            <div class="hoverBox">
+              <img src="./images/hoverimg3.jpg" alt="" width="100%">
+              <div class="icons text-center">
+                <div class="hoverContent">
+                  <i class="fa fa-brands fa-instagram"></i>
+                  <a href="">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6 p-0">
+            <div class="hoverBox">
+              <img src="./images/hoverimg4.jpg" alt="" width="100%">
+              <div class="icons text-center">
+                <div class="hoverContent">
+                  <i class="fa fa-brands fa-instagram"></i>
+                  <a href="">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6 p-0">
+            <div class="hoverBox">
+              <img src="./images/hoverimg5.jpg" alt="" width="100%">
+              <div class="icons text-center">
+                <div class="hoverContent">
+                  <i class="fa fa-brands fa-instagram"></i>
+                  <a href="">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6 p-0">
+            <div class="hoverBox">
+              <img src="./images/hoverimg6.jpg" alt="" width="100%">
+              <div class="icons text-center">
+                <div class="hoverContent">
+                  <i class="fa fa-brands fa-instagram"></i>
+                  <a href="">@ ashion_shop</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HOVER SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footercol1">
+              <img src="./images/logo.png" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis. </p>
+              <div class="payments">
+                <a href=""><img src="./images/payment1.jpg" alt=""></a>
+                <a href=""><img src="./images/payment2.jpg" alt=""></a>
+                <a href=""><img src="./images/payment3.jpg" alt=""></a>
+                <a href=""><img src="./images/payment4.jpg" alt=""></a>
+                <a href=""><img src="./images/payment5.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="footercol2">
+              <h6>QUICK LINKS </h6>
+              <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Contact</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="footercol3">
+              <h6>ACCOUNT</h6>
+              <ul>
+                <li>My Accounts</li>
+                <li>Orders Tracking</li>
+                <li>Checkout</li>
+                <li>Wishlist</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footercol4">
+              <h6>NEWSLETTER</h6>
+              <div class="textFieldfooter">
+                <input type="email" placeholder="Email" class="emailText">
+                <button type="button" class="subscribeBtn">SUBSCRIBE</button>
+              </div>
+              <div class="socialIcons">
+                <a href=""><i class="fa fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION END -->
+  </main>
+
+  <script src="js/jquery-3.5.1.slim.min.js"> </script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/boxicons.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

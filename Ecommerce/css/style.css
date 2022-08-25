@@ -1,0 +1,1674 @@
+*{outline: none!important;}
+body {overflow-x: hidden; font-family: 'Poppins', sans-serif;}
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus, select:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="number"]:focus {transition: all 0.5s ease;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;outline:none;}
+select, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea, input[type="tel"] {/*-webkit-appearance: none;-moz-appearance: none;appearance: none;*/}
+a{text-decoration: none;color: #000;}
+
+a,button,h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+
+label{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* BANNER SECTION CSS START */
+.womenFashions{
+    background: url(../images/category1.jpg);
+    height: 638px;
+    background-size: 100% 100%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.products{
+    background: url(../images/category2.jpg);
+    height: 314px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.womenFashions h1 {
+    font-family: cursive;
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+
+.womenFashions p {
+    font-size: 18px;
+    width: 58%;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.products a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 0 3px;
+    width: fit-content;
+    border-bottom: 2px solid red;
+}
+
+.womenFashions a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 0 3px;
+    width: fit-content;
+    border-bottom: 2px solid red;
+}
+
+.products h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.products p {
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.kids{
+    background: url(../images/category3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.cosmetics{
+    background: url(../images/category4.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.accessories{
+    background: url(../images/category5.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+/* BANNER SECTION CSS END */
+
+/* TREND SECTION START */
+.itemDetails {
+    display: flex;
+    margin-top: 35px;
+}
+
+.itemContent {
+    margin-left: 2rem;
+}
+
+section.trendItems {
+    padding: 5rem;
+}
+
+.itemTitle h4 {
+    font-size: 20px;
+    position: relative;
+    font-weight: 600;
+}
+
+.itemPicture img {
+    width: 100%;
+}
+
+.itemContent h6 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.itemContent .fa {
+    font-size: 10px !important;
+    margin-right: -5px;
+    color: #e3c01c;
+    margin-bottom: 10px;
+}
+
+.itemTitle h4:after {
+    content: "";
+    background: red;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 70px;
+    height: 2px;
+}
+
+.trendingitemsSlider .slick-dots {
+    display: none !important;
+}
+
+.trendingitemsSlider .rightCaret {
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    background: #e3c01c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.trendingitemsSlider .leftCaret {
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    background: #e3c01c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -85px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+/* TREND SECTION END */
+
+/* DISCOUNT SECTION START */
+.discountContent{
+    background: #f4f4f4;
+    height: 381px;
+    padding: 55px 75px 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discountText p {
+    font-size: 14px;
+}
+
+.discountText h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #ca1515;
+    font-family: cursive;
+}
+
+.discountText {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.discountText:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 180px;
+    height: 180px;
+    border-radius: 60%;
+    top: -33px;
+    left: 22%;
+}
+
+.discountText h5 {
+    font-size: 16px;
+}
+
+span.saleColor {
+    color: #ca1515;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.countdown {
+    display: flex;
+    text-align: center;
+    margin-top: 2.5rem;
+    gap: 1.5rem;
+}
+
+.countdownContent p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+span.countdowntext {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.discountContent a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 0 3px;
+    width: fit-content;
+    margin-top: 2rem;
+    border-bottom: 2px solid red;
+}
+/* DISCOUNT SECTION END */
+
+/* SERVICES SECTION START */
+.services {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.servicesContent h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.servicesContent p {
+    font-size: 14px;
+    color: #666666;
+}
+
+.servicesIcon .fa {
+    color: #ca1515;
+    font-size: 36px;
+}
+
+section.servicesSec {
+    padding: 30px 0 90px;
+}
+/* SERVICES SECTION END */
+
+/* HOVER SECTION START */
+.icons {
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    position: absolute;
+    background: #ffffffd9;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s all;
+}
+
+.hoverBox {
+    position: relative;
+}
+
+.hoverContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 27%;
+    top: 33%;
+}
+
+.hoverContent .fa {
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.hoverContent a {
+    font-size: 18px;
+}
+
+.hoverBox:hover .icons {
+    opacity: 1;
+}
+/* HOVER SECTION END */
+
+/* FOOTER SECTION START */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footercol1 p {
+    font-size: 14px;
+    color: #666;
+    margin: 1rem 0;
+}
+
+.payments a img {height: 40px;margin-right: 5px;width: 40px;}
+
+.footercol2 h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+footer ul li {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.footercol3 h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.footercol4 h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+input.emailText {border: none;padding-left: 30px;}
+
+.textFieldfooter {
+    border: 1px solid #ccc;
+    height: 50px;
+    border-radius: 36px;
+    display: flex;
+    width: 104%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button.subscribeBtn {
+    background: #ca1515;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 8px 15px;
+}
+
+
+.socialIcons .fa {
+    font-size: 20px;
+    background: #e1e1e1;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 1rem;
+}
+
+footer {
+    padding-bottom: 3rem;
+}
+/* FOOTER SECTION END */
+
+/* SUB BANNER SECTION START */
+.subbannerSec{
+    background: url(../images/subbanner.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.contentsubBanner p {
+    font-size: 18px;
+    color: #ca1515;
+    text-transform: uppercase;
+}
+
+.contentsubBanner h1 {
+    font-size: 65px;
+    font-family: cursive;
+    margin-bottom: 2rem;
+}
+
+
+.subbannerSec ul li button {
+    background: #ccc;
+    color: #ccc;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.subbannerSec ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 0;
+    left: 46%;
+    bottom: -80%;
+}
+
+button.shopnowBtn {
+    border: none;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border-bottom: 2px solid red;
+}
+
+.subbannerSec ul .slick-active button {
+    background: #ca1515;
+    color: #ca1515;
+}
+/* SUB BANNER SECTION END */
+
+/* PRODUCTS SECTION START */
+.productContent p {
+    font-size: 14px;
+}
+
+.productContent .fa {
+    font-size: 10px;
+    color: #e3c01c;
+    margin-right: -5px;
+}
+
+.productImg {
+    position: relative;
+    overflow: hidden;
+}
+
+.productContent h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productContent {padding-top: 22px;margin-bottom: 30px;}
+
+.product {
+    text-align: center;
+}
+
+.ullists ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto !important;
+    left: 0;
+    right: 0;
+}
+
+.ullists ul li {
+    height: 45px;
+    width: 45px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s all;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.ullists {position: absolute;bottom: -20%;width: 100%;/* opacity: 0; */transition: 1s all;left: 0;right: 0;margin: 0 auto !important;}
+
+.productImg:hover .ullists {
+    bottom: 10%;
+}
+
+.ullists ul a {
+    text-decoration: none !important;
+}
+
+.ullists ul li:hover {
+    transform: rotate(360deg);
+    background: red;
+    color: #fff;
+}
+
+.headingProducts {
+    margin-bottom: 40px;
+}
+
+.headingProducts h4 {position: relative;font-size: 24px;font-weight: 600;padding-bottom: 0.5rem;}
+
+.headingProducts h4:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background: red;
+}
+
+.tabs ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+/* PRODUCTS SECTION START */
+
+/* HEADER CSS START */
+.toprightIcons {
+    display: flex;
+    gap: 2rem;
+}
+
+.toprightIcons .fa {
+    font-size: 22px;
+}
+
+.toprightIcons p {
+    font-size: 18px;
+}
+
+.navbar {
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+ul.navbar-nav {
+    gap: 2rem;
+    width: 100%;
+    justify-content: center;
+}
+
+div#navbarNav ul li a {
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+}
+
+div#navbarNav ul li a:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    transition: 1s all;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    height: 2px;
+    background: red;
+}
+
+ul.navbar-nav .active a {
+    border-bottom: 2px solid red;
+}
+
+div#navbarNav ul li:hover a:after {
+    opacity: 1;
+}
+
+.dropdown button {
+    background: transparent;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+.dropdown button:hover {
+    background: none;
+    border: none;
+    color: #000;
+    border-bottom: 2px solid red;
+    width: fit-content;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+    background: transparent;
+    color: #000;
+}
+
+.dropdown-menu.show {
+    background: #000;
+    border: none;
+}
+
+a.dropdown-item {
+    color: #fff !important;
+}
+
+a.dropdown-item:hover {
+    background: #fff;
+    color: #000 !important;
+    font-weight: 500;
+}
+
+button#Pages {
+    background: transparent !important;
+    color: #000 !important;
+    border: none !important;
+}
+
+/* .dropdown-menu.show {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu.show {
+    display: block;
+} */
+/* .dropdown-menu.show {visibility: hidden !important;}
+
+.dropdown.show:hover .dropdown-menu.show {
+    visibility: visible !important;
+} */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #000;color: #fff;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: transparent;}
+/* HEADER CSS END */
+
+
+/********************** SHOP PAGE CSS ******************************/
+
+/* SHOP CSS START */
+.titleCategories h4 {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 8px;
+    margin-bottom: 2rem;
+}
+
+.titleCategories h4:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 22%;
+    background: #ca1515;
+    bottom: 0;
+    left: 0;
+}
+
+.card-header {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.card {
+    border: none;
+    border-bottom: 1px solid #cccccc69;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card-header .btn-link {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+.card-body ul li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.card-body ul li:before {
+    content: "-";
+    padding-right: 10px;
+}
+
+input#checkboxSize {
+    margin-right: 10px;
+}
+
+.categoriesDropdown {
+    margin-bottom: 32px;
+}
+
+.checkBoxes {
+    margin-bottom: 32px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+span.price {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 8px;
+}
+
+.socialIcons a {
+    text-decoration: none;
+}
+
+.pricing p {
+    font-weight: 300;
+}
+
+button.filterBtn {
+    background: transparent;
+    color: #000;
+    padding: 5px 20px;
+    font-size: 16px;
+    border-color: red;
+    font-weight: 600;
+}
+
+.shopPageSlider {
+    position: relative;
+}
+
+.shopPageSlider .slick-dots {
+    list-style: none;
+    display: flex;
+    gap: 0.7rem;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+}
+
+.shopPageSlider .slick-dots li button {height: 30px;width: 30px;border-radius: 50%;background: transparent;border: 2px solid #ccc;display: flex;color: #000;align-items: center;justify-content: center;transition: 0.6s all;}
+
+.shopPageSlider .right_arrow {
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    transition: 0.6s all;
+    font-size: 19px;
+    right: 0;
+    border: 2px solid #000;bottom:0;
+}
+
+.shopPageSlider .left_arrow {
+    transition: 0.6s all;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    font-size: 19px;
+    left: 0;
+    bottom:0;
+    border: 2px solid #000;
+}
+
+.shopPageSlider .slick-dots .slick-active button {background: #000;border: #000;color: #fff;}
+
+.shopPageSlider .right_arrow:hover {
+    background: black;
+    color: #fff;
+}
+
+.shopPageSlider .left_arrow:hover {
+    background: #000;
+    color: #fff;
+}
+
+.shopPageSlider .slick-dots li button:hover {
+    background: #ccc;
+}
+
+/* SHOP CSS END */
+
+/************** SHOP PAGE CSS END *****************/
+
+/* PRODUCT DETAILS START */
+.productRating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.productPrice {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 30px;
+}
+
+.productBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2rem;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.incrementBtns {
+    display: flex;
+    gap: 2rem;
+    width: 150px;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    border: 1px solid #ebebeb;
+    border-radius: 75px;
+}
+
+.productHeading h3 {
+    font-size: 30px;
+}
+
+.productHeading p {
+    font-size: 14px;
+    color: #666;
+}
+
+.productRating .fa-star {
+    font-size: 12px;
+    margin-right: -2px;
+    color: #e3c01c;
+}
+
+.productRating p {
+    font-size: 12px;
+    margin-left: 1rem;
+}
+
+.productPrice h3 {
+    color: #ca1515;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.productPrice h4 {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #666;
+}
+
+.productDetails p {
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+
+.productHeading {
+    margin-bottom: 17px;
+}
+
+.quantity h4 {
+    font-size: 16px;
+}
+
+.incrementBtns .fa {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.incrementBtns p {
+    font-size: 12px;
+    color: #ccc;
+}
+
+button.addtocartBtn {
+    background: #ca1515;
+    height: 50px;
+    width: 150px;
+    border-radius: 75px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+}
+
+button.addtocartBtn .fa {
+    padding-right: 10px;
+}
+
+.productIcons .fa-heart {
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    border: 1px solid #ccc;
+    color: #ca1515;
+}
+
+.productIcons {
+    display: flex;
+}
+
+.productIcons .fa-sort {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 1rem;
+    color: #212529;
+    border: 1px solid #ccc;
+}
+
+.productAvailability {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-top: 35px;
+}
+
+.availabilitycheckbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+input#availableCheckbox {
+    height: 15px;
+    width: 15px;
+}
+
+.productAvailability h4 {
+    font-size: 16px;
+    width: 35%;
+}
+
+.availabilitycheckbox label {
+    color: #666;
+    font-size: 16px;
+}
+
+.productColor h4 {
+    font-size: 16px;
+    width: 35%;
+}
+
+.productColor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.colorsCheckbox {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.colorcheckbox {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.productSizes h4 {
+    font-size: 16px;
+    width: 35%;
+}
+
+.productSizes {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.sizescheckbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sizesCheckbox {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotions h4 {
+    font-size: 16px;
+    width: 35%;
+}
+
+.promotions {
+    display: flex;
+    align-items: center;
+}
+
+.promotions p {
+    color: #666;
+}
+
+.red {
+    background: red;
+    border: none;
+}
+
+.black {
+    background: #000;
+    border: none;
+}
+
+.peach {
+    background: peachpuff;
+    border: none;
+}
+
+.xsmall:after {
+    content: "XS";
+    font-size: 14px;
+    color: #666;
+}
+
+.small:after {
+    content: "S";
+    font-size: 14px;
+    color: #666;
+}
+
+.medium:after {
+    content: "M";
+    font-size: 14px;
+    color: #666;
+}
+
+.large:after {
+    content: "L";
+    font-size: 14px;
+    color: #666;
+}
+
+.sizesCheckbox:checked:after {color: red;}
+
+
+.productImg  img {
+    margin: 0 auto;
+    height: 300px;
+    z-index: -1;
+}
+
+.right {
+    width: 30px;
+    height: 30px;
+    background: #ca1515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10%;
+    margin: auto;
+}
+
+.left {
+    width: 30px;
+    height: 30px;
+    background: #ca1515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    z-index: 99;
+    margin: auto;
+}
+
+.smallImgs img {
+    width: 83px;
+}
+
+.productImg {
+    margin-bottom: 2rem;
+}
+
+.itemImg img {
+    height: 445px;
+    margin: 0 auto;
+}
+
+/* PRODUCTS DETAIL END */
+
+/* RELATED PRODUCTS SECTION START */
+.headingrelatedproducts h5 {
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+/* RELATED PRODUCTS SECTION END */
+
+
+/* TAB SECTION CSS START */
+.tab-content h3 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+.tab-content p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.nav-tabs {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: none;
+}
+
+.nav-tabs .nav-link {border: none;}
+
+.nav-tabs:before {
+    content: "";
+    height: 1px;
+    width: 30%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    margin: auto 0;
+    background: #ccc;
+}
+
+.nav-tabs:after {content: "";height: 1px;width: 30%;top: 0;bottom: 0;right: 0;position: absolute;background: #ccc;margin: auto 0;}
+
+.nav-tabs li a {
+    font-size: 20px;
+    color: #666;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-item .active {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+}
+/* TABS SECTION CSS END */
+
+/* SHOP CART CSS START */
+.cartDetails {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.cartImg img {
+    width: 100%;
+}
+
+.cartContent h6 {
+    font-size: 16px;
+}
+
+.cartContent .fa-star {
+    color: #e3c01c;
+    font-size: 10px;
+    margin-right: -4px;
+}
+
+th {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+td p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ca1515;
+}
+
+.counterBtns input {
+    border: none;
+    text-align: center;
+    color: #444;
+    width: 40px;
+    margin: 0 auto;
+}
+
+.counterBtns button {height: 35px;width: 35px;font-size: 18px;color: #444;border: none;background: transparent;font-weight: 500;}
+
+button.cancelBtn {
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+}
+
+td.col5 {
+    text-align: right;
+}
+
+td {
+    padding: 2rem 0;
+}
+
+tr.row2:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    left: 0;
+    bottom: 0;
+}
+
+tr.row2 {
+    position: relative;
+}
+
+.cartBtns {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.cartBtns button {
+    border: none;
+    background: #f5f5f5;
+    font-weight: 600;
+    padding: 15px 30px;
+    font-size: 14px;
+    color: #111;
+    margin-bottom: 3rem;
+}
+
+button.updateBtn .fa-spinner {
+    color: red;
+    padding-right: 0.5rem;
+    font-size: 16px;
+}
+
+.shopcartBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+input.couponCode {
+    height: 50px;
+    width: 400px;
+    padding-left: 1.5rem;
+    border-radius: 25px;
+    border: 1px solid #000;
+}
+
+button.applyBtn {
+    padding: 8px 35px;
+    border: none;
+    background: #ca1515;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    transform: translateX(-125px);
+    border-radius: 25px;
+}
+
+.couponField {
+    display: flex;
+    align-items: center;
+}
+
+.abc h5 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.totals {
+    background: #f5f5f5;
+    padding: 40px;
+    width: 30%;
+}
+
+.totals ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.totals h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.totals ul li {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+span.totalpriceColor {
+    float: right;
+    color: #ca1515;
+}
+
+button.proceedBtn {
+    background: #ca1515;
+    border: none;
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 25px;
+    color: #fff;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* CHECKOUT PAGE CSS START */
+
+.billingSec input[type=text] {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 25px;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    padding-left: 1.5rem;
+    color: #666;
+    font-size: 14px;
+}
+
+.billingSec label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #444;
+}
+
+.paragraphbilling p {
+    font-size: 14px;
+    width: 90%;
+    color: #666;
+    margin: 15px 0;
+}
+
+input.passwordField {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+input[type="checkbox"] {
+    height: 18px;
+    width: 18px;
+}
+
+.createcheckbox {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.createcheckbox label {
+    margin: 0;
+}
+
+.checkbox2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.checkbox2 label {
+    margin: 0;
+}
+
+.ordernotes {
+    margin-top: 25px;
+}
+
+.yourorder ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.yourorder h5 {
+    font-size: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #d7d7d7;
+    font-weight: 600;
+}
+
+li.text {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+span.rightspan {
+    float: right;
+    font-weight: 600;
+}
+
+.yourorder ul li {
+    line-height: 24px;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+.ullist1 {
+    border-bottom: 1px solid #ccc;
+}
+
+.ullist2 {
+    margin-top: 14px;
+    border-bottom: 1px solid #ccc;
+}
+
+span.rightspanred {
+    float: right;
+    font-weight: 600;
+    color: #ca1515;
+}
+
+.ullist2 ul li {
+    font-weight: 600;
+}
+
+.checks label {
+    margin: 0;
+    padding: 0;
+}
+
+.checks {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.bottomYourOrder p {
+    color: #666;
+    font-size: 14px;
+    margin: 1.5rem 0;
+}
+
+.checks label {
+    color: #000;
+}
+
+.yourorder {
+    padding: 2rem;
+    background: #f5f5f5;
+}
+
+.billingheading h5 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.topheading p {
+    text-align: center;
+}
+
+.topheading {
+    background: whitesmoke;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-top: 2px solid #ca1515;
+}
+
+.billingSec .col-lg-12 {
+    padding: 0;
+}
+/* CHECKOUT PAGE CSS END */
+
+/* CONTACT PAGE CSS START*/
+
+.contactForm h5 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.contactForm h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contactForm p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.contactForm .fa {
+    color: #ca1515;
+    padding-right: 15px;
+}
+
+.contactForm h4 {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+input.contactFields {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 1rem;
+    border: 1px solid #e1e1e1;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.contactForm textarea {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding-left: 1rem;
+    border: 1px solid #e1e1e1;
+    padding-top: 0.5rem;
+}
+
+button.sendmsgBtn {
+    border: none;
+    background: #ca1515;
+    color: #fff;
+    margin-top: 20px;
+    padding: 12px 30px;
+    border-radius: 50px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
