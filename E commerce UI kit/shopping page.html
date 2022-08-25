@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Shopping Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/boxicons.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <main class="wrapper">
+
+<!-- HEADER START -->
+<header>
+
+  <div class="topBarSec">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="topBarLogo">
+            <img src="./images/logo.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse centernav navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+        <div class="col-lg-4">
+          <div class="topBarIcons">
+            <i class="fa fa-solid fa-magnifying-glass"></i>
+            <i class="fa fa-solid fa-bag-shopping"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+<!-- HEADER END -->
+
+<!-- SHOPPING PAGE SELECTION START -->
+    <div class="sectionHead pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="list" id="listTopbar">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Show</label>
+              <select class="form-control">
+                <option>Popular</option>
+                <option>Trending</option>
+                <option>New Arrival</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Price</label>
+              <select class="form-control">
+                <option>Any</option>
+                <option>$100-$200</option>
+                <option>$200-$400</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Brand</label>
+              <select class="form-control">
+                <option>Any</option>
+                <option>J.</option>
+                <option>Outfitters</option>
+              </select>
+            </div>
+
+            <div class="sizes">
+              <div class="label">
+                <label for="size">Sizes</label>
+                <label for="sizeguide" class="sizeguide">Size Guide</label>
+              </div>
+              <div class="sizecheckbox">
+                  <input type="checkbox" class="sizesbox xlarge">
+                  <input type="checkbox" class="sizesbox small">
+                  <input type="checkbox" class="sizesbox large">
+              </div>
+            </div>
+
+<div class="color">
+  <div class="label">
+    <label for="size">Color</label>
+  </div>
+  <div class="colorcheckbox">
+    <input type="checkbox" class="colorbox blue">
+    <input type="checkbox" class="colorbox green">
+    <input type="checkbox" class="colorbox cgreen">
+</div>
+</div>   
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- SHOPPING PAGE SELECTION END -->
+
+<!-- SHOPPING PAGE CARDS START -->
+    <div class="ShoppingCardsSec">
+      <div class="container">
+        <div class="row ShoppingPageSlider">
+          <div class="col-lg-4">
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc1.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Women's costume Yves Saint Laurent</h3>
+                <p>Fashion is something we deal with everyday. Even people who say t…</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>1140</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc4.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Men’s black tie Valentino</h3>
+                <p>Jacquard Valentino tie with Valentino logo motif.</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>225</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc2.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Men’s black hat
+                  Gucci</h3>
+                <p>The fedora hat is reimagined for Pre-Fall
+                  2020 with a maxi embroidered label de...</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>540</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc5.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Men’s jacket
+                  Off- white</h3>
+                <p>Off-White scuffed denim jacket. Faded effect, baggy cut, pointed collar, clasp…</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>215</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc3.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Dress Karl <br>Lagerfeld</h3>
+                <p>Another masterpiece from the legendary designer. He designed new dress dev…</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>640</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc6.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Cotton blouse
+                  Dries van noten</h3>
+                <p>The fedora hat is reimagined for Pre-Fall
+                  2020 with a maxi embroidered label de...</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>180</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4">
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc1.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Women's costume Yves Saint Laurent</h3>
+                <p>Fashion is something we deal with everyday. Even people who say t…</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>1140</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc4.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Men’s black tie Valentino</h3>
+                <p>Jacquard Valentino tie with Valentino logo motif.</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>225</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc2.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Men’s black hat
+                  Gucci</h3>
+                <p>The fedora hat is reimagined for Pre-Fall
+                  2020 with a maxi embroidered label de...</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>540</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc5.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Men’s jacket
+                  Off- white</h3>
+                <p>Off-White scuffed denim jacket. Faded effect, baggy cut, pointed collar, clasp…</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>215</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc3.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Dress Karl <br>Lagerfeld</h3>
+                <p>Another masterpiece from the legendary designer. He designed new dress dev…</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>640</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+
+            <div class="cardBody">
+              <div class="cardImg">
+                <img src="./images/sc6.png" alt="">
+              </div>
+              <div class="cardContent">
+                <h3>Cotton blouse
+                  Dries van noten</h3>
+                <p>The fedora hat is reimagined for Pre-Fall
+                  2020 with a maxi embroidered label de...</p>
+              </div>
+              <div class="cardButton">
+                <h3><span class="dollar">$</span>180</h3>
+                <button type="button" class="btn btn-outline-primary">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- SHOPPING PAGE CARDS END -->
+
+<!-- SHOPPING PAGE FOOTER START -->
+    <footer>
+
+      <div class="sectionFoot">
+        <div class="container">
+
+      
+        <div class="row">
+
+          <div class="col-lg-3">
+             <div class="footercol1">
+               <h4>Hot links</h4>
+               <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Shop</a></li>
+                 <li><a href="#">Blog</a></li>
+                 <li><a href="#">Contact</a></li>
+               </ul>
+             </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footercol2">
+             <h4>More Info</h4>
+             <ul>
+               <li> <a href="#">How it works</a></li>
+               <li> <a href="#">About us</a></li>
+               <li> <a href="#">Decline rules</a></li>
+               <li> <a href="#">Terms & Conditions</a></li>
+             </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footercol3">
+             <h4>Customer Care</h4>
+             <ul>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">Terms of use</a></li>
+               <li><a href="#">Privacy Policy</a></li>
+               <li><a href="#">Discount system</a></li>
+             </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footercol4">
+             <h4>Get Newsletter</h4>
+             <ul>
+               <li><a href="#">Get updates about style</a></li>
+             </ul>
+             <div class="searchfooter">
+                <input type="email" class="emailsearch" placeholder="Type your email...">
+                <button type="button" class="searchbutton"><i class="fa fa-light fa-magnifying-glass"></i></button>
+             </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="footerbottom abc">
+        <div class="container">
+          <div class="flexFooter">
+           <p>© Clay Shop all rights reserved</p>
+           <ul>
+             <li><a href="#"><i class="fa fa-brands fa-instagram"></i></a></li>
+             <li><a href="#"><i class="fa fa-brands fa-twitter"></i></a></li>
+             <li><a href="#"><i class="fa fa-brands fa-facebook-f"></i></a></li>
+           </ul>
+          </div>
+        </div> 
+      </div>
+
+    </footer>
+<!-- SHOPPING PAGE FOOTER END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="content">
+      <div class="grid">
+        <figure class="effect-sadie">
+          <img src="https://tympanus.net/Development/HoverEffectIdeas/img/2.jpg" alt="img02" />
+          <figcaption>
+            <h2>T Shirts</h2>
+            <a href="#">View more</a>
+          </figcaption>
+        </figure>
+      </div>
+    </div> -->
+
+    <!-- proSec start --> 
+    <section class="proSec"> 
+      <div class="container"> 
+        <div class="row">
+          <div class="col-md-4">
+            <div class="product">
+              <img src="https://tympanus.net/Development/HoverEffectIdeas/img/2.jpg" alt="img02" width="100%"/>
+              <div class="proOverlay">
+                <ul class="list-inline d-flex justify-content-between">
+                  <li>T-shirts</li>
+                  <li><i class="fa fa-long-arrow-right"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+  </main>
+  <script src="js/jquery-3.5.1.slim.min.js"> </script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/boxicons.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
