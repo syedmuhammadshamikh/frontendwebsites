@@ -1,0 +1,569 @@
+*{outline: none!important;}
+body {overflow-x: hidden; font-family: 'Poppins', sans-serif;}
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus, select:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="number"]:focus {transition: all 0.5s ease;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;outline:none;}
+select, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea, input[type="tel"] {/*-webkit-appearance: none;-moz-appearance: none;appearance: none;*/}
+a{text-decoration: none;color: #000;}
+
+.practiseSec{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/min.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+}
+
+
+.practiseSec .icon .fa {
+    color: #fff;
+    font-size: 60px;
+    border: 1px solid #292d336e;
+    padding: 1.3rem;
+    border-radius: 50%;
+}
+
+.practiseSec .icon {
+    background: #f1a40e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.practiseSec .name {
+    background: #292d33;
+    height: 300px;
+    padding: 1rem;
+}
+
+.practiseSec .content {
+    background: #292d33;
+    height: 300px;
+}
+
+.practiseSec .name h2 {
+    color: #fff;
+    font-size: 40px;
+    padding-top: 1rem;
+    border-top: 5px solid #f1a40e;
+}
+
+.practiseSec .content p {
+    color: #Fff;
+    padding: 2rem;
+    width: 92%;
+}
+
+.practiseSec .contentNo h1 {
+    color: #fff;
+    font-size: 130px;
+    font-weight: 700;
+    float: right;
+    padding-right: 3rem;
+}
+
+.practiseSec .namecontent p {
+    color: #fff;
+    font-size: 19px;
+}
+
+.practiseSec .learnMoreBtn {
+    padding: 0.7rem 2rem;
+    background: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+.practiseSec2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/min1.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+}
+.practiseSec2 .icon .fa {
+    color: #fff;
+    font-size: 60px;
+    border: 1px solid #292d336e;
+    padding: 1.3rem;
+    border-radius: 50%;
+}
+
+.practiseSec2 .icon {
+    background: #1daad2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.practiseSec2 .name {
+    background: #292d33;
+    height: 300px;
+    padding: 1rem;
+}
+
+.practiseSec2 .content {
+    background: #292d33;
+    height: 300px;
+}
+
+.practiseSec2 .name h2 {
+    color: #fff;
+    font-size: 40px;
+    padding-top: 1rem;
+    border-top: 5px solid #1daad2;
+    width: 70%;
+    float: right;
+}
+
+.practiseSec2 .content p {
+    color: #Fff;
+    padding: 2rem;
+    width: 92%;
+}
+
+.practiseSec2 .contentNo h1 {
+    color: #fff;
+    font-size: 130px;
+    font-weight: 700;
+    float: left;
+    padding-left: 3rem;
+}
+
+.practiseSec2 .namecontent p {
+    color: #fff;
+    font-size: 19px;
+}
+
+.practiseSec2 .learnMoreBtn {
+    padding: 0.7rem 2rem;
+    background: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+}
+.image1 img {
+    height: 289px;
+}
+
+.image2 img {
+    height: 289px;
+    object-fit: cover;
+    object-position: 100%;
+}
+
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 2rem;
+}
+
+.socialIcons .fa {
+    font-size: 40px;
+    color: #1daad2;
+}
+
+.businessSec {
+    background: #1a1a1a;
+}
+.businessContent h2 {
+    font-size: 6rem;
+    color: #fff;
+    margin-left: 3rem;
+    font-weight: 700;
+}
+
+.businessContent span {
+    color: #1daad2;
+    font-weight: 500;
+}
+
+.bannerSec{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: 100%;
+}
+
+.bannerHeading h1 {
+    color: #fff;
+    font-size: 4.175rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+.bannerHeading h1:after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 15%;
+    bottom: 0;
+    height: 4%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.services {
+    color: #fff;
+    background: #000000d9;
+    text-align: center;
+    border: 4px solid #f1a40e;
+    padding: 5rem 3rem;
+    animation-timing-function: ease;
+}
+
+.services .fa {
+    background: #f1a40e;
+    font-size: 50px;
+    padding: 1.2rem;
+    border-radius: 50%;
+}
+
+.services h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 1rem;
+}
+.blue {
+    border-color: #1daad2;
+    transition: 0.6s all ease;
+}
+
+.blue .fa {
+    background: #1daad2;
+}
+
+.cgreen {
+    border-color: #16b6a1;
+    transition: 0.6s all ease;
+}
+
+.cgreen .fa {
+    background: #16b6a1;
+}
+.bannerSec .row {
+    align-items: center;
+    height: 95vh;
+}
+
+.learnMoreBtn:hover {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+}
+
+.blue:hover {
+    background: #1daad2;
+    color: #000;
+    border-color: #fff;
+    transform: scale(1.06);
+}
+
+.blue:hover .fa {
+    background: #fff;
+    color: #1daad2;
+}
+
+.cgreen:hover {
+    background: #16b6a1;
+    color: #000;
+    border-color: #fff;
+    transform: scale(1.06);
+}
+
+.cgreen:hover .fa {
+    background: #fff;
+    color: #16b6a1;
+}
+
+.yellow:hover {
+    background: #f0a30e;
+    color: #000;
+    border-color: #fff;
+    transform: scale(1.06);
+}
+
+.yellow {
+    transition: 0.6s all ease;
+}
+
+.yellow:hover .fa {
+    background: #fff;
+    color: #f1a40e;
+}
+
+
+.serviceIconSec {
+    background: #292d33;
+}
+
+.iconBox {
+    color: #fff;
+    display: flex;
+    gap: 2rem;
+}
+
+.iconsss .fa {
+    font-size: 30px;
+    background: #f1a40e;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+}
+
+.practiseSec3{
+background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/min3.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    
+}
+
+.practiseSec3 .icon .fa {
+    color: #fff;
+    font-size: 60px;
+    border: 1px solid #292d336e;
+    padding: 1.3rem;
+    border-radius: 50%;
+}
+
+.practiseSec3 .icon {
+    background: #16b6a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.practiseSec3 .name {
+    background: #292d33;
+    height: 300px;
+    padding: 1rem;
+}
+
+.practiseSec3 .content {
+    background: #292d33;
+    height: 300px;
+}
+
+.practiseSec3 .name h2 {
+    color: #fff;
+    font-size: 40px;
+    padding-top: 1rem;
+    border-top: 5px solid #16b6a1;
+}
+
+.practiseSec3 .content p {
+    color: #Fff;
+    padding: 2rem;
+    width: 92%;
+}
+
+.practiseSec3 .contentNo h1 {
+    color: #fff;
+    font-size: 130px;
+    font-weight: 700;
+    float: right;
+    padding-right: 3rem;
+}
+
+.practiseSec3 .namecontent p {
+    color: #fff;
+    font-size: 19px;
+}
+
+.practiseSec3 .learnMoreBtn {
+    padding: 0.7rem 2rem;
+    background: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+.contactSec {
+    background: #1a1a1a;
+    padding: 5rem 0;
+}
+
+.textfields input {
+    background: #404040;
+    padding: 0.5rem 0 0.5rem 1rem;
+    margin: 0.3rem 0;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.textfields textarea {
+    background: #404040;
+    margin-top: 0.3rem;
+    border: none;
+    padding: 0.5rem 0 0.5rem 1rem;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+}
+.submitBtn {
+    background: #16b6a1;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1.6rem;
+    margin-top: 1rem;
+    letter-spacing: 1.4px;
+    font-weight: 600;
+}
+
+.contactsocialIcons {
+    display: flex;
+    gap: 2rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.contactsocialIcons .fa-brands {
+    font-size: 20px;
+}
+
+.contactSecInfo {
+    color: #fff;
+}
+
+.contactSecInfo h3 {
+    font-size: 22px;
+}
+
+.contactSecInfo p {
+    width: 84%;
+}
+
+.contactSecInfo h2 {
+    color: #16b6a1;
+    font-weight: 600;
+    margin: 1rem 0;
+    font-size: 56px;
+}
+
+.overlay{
+    background: url(../images/rttr.png);
+}
+
+.clockServices {
+    background: #fff;
+    border: 1px solid;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 1rem;
+}
+
+.clockServices .fa {
+    font-size: 40px;
+    background: #ffb901;
+    padding: 1.5rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+
+.servicesclock {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem;
+}
+
+.hoverSec{
+    background: url(../images/pexels-photo-3204506.jpeg);
+    background-size: cover;
+    padding: 7rem 0;
+    background-position: center;
+}
+
+.hoverBox {
+    background: #fff;
+    text-align: center;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    transition: 0.6s all ease;
+}
+
+.hoverBox .fa {
+    font-size: 35px;
+    margin-bottom: 2rem;
+    color: #f1ae0e;
+}
+
+.hoverBox h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.hoverBox p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hoverBox:hover {
+    background: yellow;
+}
+
+.hoverBox:hover {
+    background: #f1ae0e;
+    transform: scale(1.2);
+}
+
+.hoverBox:hover .fa {
+    color: #fff;
+}
+
+.hoverBox:hover h2 {
+    color: #fff;
+}
+
+.hoverBox:hover p {
+    color: #fff;
+}
+
+.workers img {
+    object-fit: cover;
+    height: 300px;
+    object-position: 100% 45%;
+}
+
+section.workers {
+    padding: 7rem 0;
+}
+
+.bgYellow {
+    background: yellow;
+    width: 100%;
+    height: 300px;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

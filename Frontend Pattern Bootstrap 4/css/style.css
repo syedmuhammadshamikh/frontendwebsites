@@ -1,0 +1,5 @@
+*{outline: none!important;}
+body {overflow-x: hidden; font-family: 'Poppins', sans-serif;}
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus, select:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="number"]:focus {transition: all 0.5s ease;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;outline:none;}
+select, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea, input[type="tel"] {/*-webkit-appearance: none;-moz-appearance: none;appearance: none;*/}
+a{text-decoration: none;color: #000;}
