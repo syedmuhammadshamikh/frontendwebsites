@@ -1,0 +1,1170 @@
+*{outline: none!important;}
+body {overflow-x: hidden; font-family: 'Poppins', sans-serif;}
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus, select:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="number"]:focus {transition: all 0.5s ease;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;outline:none;}
+select, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea, input[type="tel"] {/*-webkit-appearance: none;-moz-appearance: none;appearance: none;*/}
+a{text-decoration: none;color: #000;}
+
+
+/* NEWS RELEASE SECTION CSS START */
+.bookImg img {
+    height: 340px;
+}
+
+.mainDivnews {
+    display: flex;
+}
+
+.bookContent {
+    background: #f5f4f0;
+    padding: 2rem;
+    width: 50%;
+}
+
+.bookImg {
+    width: 50%;
+    position: relative;
+}
+
+.bookContent p {
+    color: #ff7a5c !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bookContent h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.bookContent h4 {
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-size: 17px;
+}
+
+.hoverIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    right: 5%;
+    opacity: 0;
+    top: 5%;
+    transition: 0.3s all;
+    position: absolute;
+}
+
+.hoverIcons .fa {
+    background: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.hoverIcons .fa:hover {
+    background: #ff7a5c;
+    color: #fff;
+}
+
+.mainDivnews:hover .bookContent {background: #f5f4f0;}
+
+.mainDivnews:hover .hoverIcons {
+    opacity: 1;
+}
+
+.mainDivnews:hover .bookContent {
+    background: #95adbe;
+    transition: 0.3s all;
+}
+
+.mainDivnews:hover .bookContent h3 {
+    color: #fff !important;
+}
+.mainDivnews:hover .bookContent h4 {
+    color: #fff !important;
+}
+.mainDivnews:hover .bookContent p {
+    color: #fff !important;
+}
+/* NEWS RELEASE SECTION CSS END */
+
+/* BLOGS SECTION START */
+
+.blogDate {
+    width: 100px;
+    height: 100px;
+    background: #f5f4f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.blogDate h3 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+    color: #95adbe;
+}
+
+.blogDate h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.blogDate p {
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.blogContent h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.blogContent {
+    text-align: center;
+    transform: translateY(-50px);
+}
+
+.headingSection h3 {
+    font-size: 16px;
+    color: #ff7a5c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.headingSection h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.headingSection {
+    margin-bottom: 60px;
+}
+
+/* BLOGS SECTION END */
+
+/* TESTIOMONIAL SECTION START */
+
+.testimonialSec{
+    background: url(../images/testimonial.webp);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlayColor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #95adbe;
+    height: 400px;
+    opacity: .8;
+}
+
+.testiomonialsHeading {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 120px;
+}
+
+.testiomonialsHeading h4 {
+    font-size: 20px;
+}
+
+.testiomonialsHeading h2 {
+    font-size: 50px;
+}
+
+.personImg img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.information {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.testimonialBox {
+    background: #fff;
+    padding: 20px;
+}
+
+.personInfo h3 {
+    font-size: 20px;
+}
+
+.personInfo h4 {
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+section.blogSec {
+    margin-top: 100px;
+}
+
+ul.slick-dots li button {
+    font-size: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #e6e6e6;
+    border: 1px solid #e6e6e6;
+}
+
+ul.slick-dots {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    justify-content: center;
+}
+
+ul.slick-dots .slick-active button {
+    background: #95adbe;
+    border: #ccc;
+}
+
+/* TESTIOMONIAL SECTION END */
+
+/* AUTHOR SECTION START */
+
+.content h5 {
+    color: #ff7a5c;
+    font-weight: 400;
+    letter-spacing: 3px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.content h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+button.authorBtn {
+    border: none;
+    background: #95adbe;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.authorSec .row {
+    align-items: center;
+}
+
+/* AUTHOR SECTION END */
+
+/*  */
+
+.iconImg img {height: 80px;z-index: 1;object-fit: contain;}
+
+.iconImg {
+    height: 170px;
+    width: 170px;
+    background: #f5f4f0;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icon h3 {font-size: 24px;}
+
+.icon {
+    text-align: center;
+}
+
+.circleBox {
+    height: 40px;
+    width: 40px;
+    background: #ff8f5c;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 22%;
+    bottom: 0;
+    margin: auto 0;
+    transition: 0.3s all;
+}
+
+.iconImg:hover .circleBox {
+    transform: translateX(-13px);
+    background: #fff;
+}
+
+.iconImg:hover {
+    background: #95adbe;
+}
+
+.icon p {
+    line-height: 1.8;
+    color: gray;
+    width: 110%;
+    margin: 0 auto;
+}
+
+/* HOVER SECTION START */
+
+.work2{
+    background: url(../images/work2.webp) !important;
+    background-size: cover !important;
+}
+
+.work3{
+    background: url(../images/work3.webp) !important;
+    background-size: cover !important;
+}
+
+.work4{
+    background: url(../images/work4.webp) !important;
+    background-size: cover !important;
+}
+
+.work5{
+    background: url(../images/work5.webp) !important;
+    background-size: cover !important;
+}
+
+.work6{
+    background: url(../images/work6.webp) !important;
+    background-size: cover !important;
+}
+
+.imageHover{
+    background: url(../images/work1.webp);
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.texts h5 {
+    color: rgb(205, 179, 12);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.texts h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.textContent {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    gap: 4rem;
+    transition: 0.3s all;
+}
+
+.imageHover::after {
+    content: "";
+    background-color: #000;
+    top: -50%;
+    right: 0;
+    position: absolute;
+    height: 50%;
+    transition: 0.3s all ease;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.imageHover::before {
+    content: "";
+    background-color: #000;
+    bottom: -50%;
+    right: 0;
+    position: absolute;
+    height: 50%;
+    transition: 0.3s all ease;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.imageHover:hover::after {
+    top: 0;
+}
+
+.imageHover:hover::before {
+    bottom: 0;
+}
+
+.imageHover:hover .textContent {
+    opacity: 1;
+}
+
+.iconText .fa {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.iconText {
+    height: 40px;
+    width: 40px;
+    background: rgb(205, 179, 12);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HOVER SECTION END */
+
+/* SERVICES SECTION START */
+.servicesSec{
+    background: url(../images/bg.webp);
+    padding: 7rem 0;
+}
+
+.servicesIcon:before {content: "\f86d";font-family: 'FontAwesome';font-size: 40px;color: #cdb30c;transition: 0.3s all;}
+
+.servicesIcon {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.services {
+    padding: 30px;
+    background: #1a1a1a;
+    width: 100%;
+    position: relative;
+}
+
+.contentServices h2 {
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.contentServices p {
+    color: #999999;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.servicesContent h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.servicesBtn .fa {
+    color: #cdb30c;
+    border: 2px solid #cdb30c;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    background: #1a1a1a;
+}
+
+.servicesBtn {
+    position: absolute;
+    opacity: 0;
+    bottom: -20px;
+    right: 80px;
+    transition: 0.3s all;
+}
+
+
+.services:hover {
+    background: #cdb30c;
+}
+
+.services:hover .servicesBtn {
+    opacity: 1 !important;
+    right: 40px;
+}
+
+.services:hover .servicesIcon:before {
+    color: #000;
+}
+
+.servicesYellow {
+    background: #cdb30c !important;
+}
+
+.servicesYellow .servicesContent h3 {
+    color: #1a1a1a;
+}
+
+.servicesYellow .servicesIcon:before {
+    color: #1a1a1a;
+}
+/* SERVICES SECTION END */
+
+*{outline: none!important;}
+body {overflow-x: hidden; font-family: 'Poppins', sans-serif;}
+input[type="text"]:focus, textarea:focus, input[type="password"]:focus, select:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="number"]:focus {transition: all 0.5s ease;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;outline:none;}
+select, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea, input[type="tel"] {/*-webkit-appearance: none;-moz-appearance: none;appearance: none;*/}
+a{text-decoration: none;color: #000;}
+
+
+/* NEWS RELEASE SECTION CSS START */
+.bookImg img {
+    height: 340px;
+}
+
+.mainDivnews {
+    display: flex;
+}
+
+.bookContent {
+    background: #f5f4f0;
+    padding: 2rem;
+    width: 50%;
+}
+
+.bookImg {
+    width: 50%;
+    position: relative;
+}
+
+.bookContent p {
+    color: #ff7a5c !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bookContent h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.bookContent h4 {
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-size: 17px;
+}
+
+.hoverIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    right: 5%;
+    opacity: 0;
+    top: 5%;
+    transition: 0.3s all;
+    position: absolute;
+}
+
+.hoverIcons .fa {
+    background: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.hoverIcons .fa:hover {
+    background: #ff7a5c;
+    color: #fff;
+}
+
+.mainDivnews:hover .bookContent {background: #f5f4f0;}
+
+.mainDivnews:hover .hoverIcons {
+    opacity: 1;
+}
+
+.mainDivnews:hover .bookContent {
+    background: #95adbe;
+    transition: 0.3s all;
+}
+
+.mainDivnews:hover .bookContent h3 {
+    color: #fff !important;
+}
+.mainDivnews:hover .bookContent h4 {
+    color: #fff !important;
+}
+.mainDivnews:hover .bookContent p {
+    color: #fff !important;
+}
+/* NEWS RELEASE SECTION CSS END */
+
+/* BLOGS SECTION START */
+
+.blogDate {
+    width: 100px;
+    height: 100px;
+    background: #f5f4f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.blogDate h3 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+    color: #95adbe;
+}
+
+.blogDate h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.blogDate p {
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.blogContent h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.blogContent {
+    text-align: center;
+    transform: translateY(-50px);
+}
+
+.headingSection h3 {
+    font-size: 16px;
+    color: #ff7a5c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.headingSection h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.headingSection {
+    margin-bottom: 60px;
+}
+
+/* BLOGS SECTION END */
+
+/* TESTIOMONIAL SECTION START */
+
+.testimonialSec{
+    background: url(../images/testimonial.webp);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlayColor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #95adbe;
+    height: 400px;
+    opacity: .8;
+}
+
+.testiomonialsHeading {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 120px;
+}
+
+.testiomonialsHeading h4 {
+    font-size: 20px;
+}
+
+.testiomonialsHeading h2 {
+    font-size: 50px;
+}
+
+.personImg img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.information {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.testimonialBox {
+    background: #fff;
+    padding: 20px;
+}
+
+.personInfo h3 {
+    font-size: 20px;
+}
+
+.personInfo h4 {
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+section.blogSec {
+    margin-top: 100px;
+}
+
+ul.slick-dots li button {
+    font-size: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #e6e6e6;
+    border: 1px solid #e6e6e6;
+}
+
+ul.slick-dots {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    justify-content: center;
+}
+
+ul.slick-dots .slick-active button {
+    background: #95adbe;
+    border: #ccc;
+}
+
+/* TESTIOMONIAL SECTION END */
+
+/* AUTHOR SECTION START */
+
+.content h5 {
+    color: #ff7a5c;
+    font-weight: 400;
+    letter-spacing: 3px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.content h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+button.authorBtn {
+    border: none;
+    background: #95adbe;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.authorSec .row {
+    align-items: center;
+}
+
+/* AUTHOR SECTION END */
+
+/*  */
+
+.iconImg img {height: 80px;z-index: 1;object-fit: contain;}
+
+.iconImg {
+    height: 170px;
+    width: 170px;
+    background: #f5f4f0;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icon h3 {font-size: 24px;}
+
+.icon {
+    text-align: center;
+}
+
+.circleBox {
+    height: 40px;
+    width: 40px;
+    background: #ff8f5c;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 22%;
+    bottom: 0;
+    margin: auto 0;
+    transition: 0.3s all;
+}
+
+.iconImg:hover .circleBox {
+    transform: translateX(-13px);
+    background: #fff;
+}
+
+.iconImg:hover {
+    background: #95adbe;
+}
+
+.icon p {
+    line-height: 1.8;
+    color: gray;
+    width: 110%;
+    margin: 0 auto;
+}
+
+/* HOVER SECTION START */
+
+.work2{
+    background: url(../images/work2.webp) !important;
+    background-size: cover !important;
+}
+
+.work3{
+    background: url(../images/work3.webp) !important;
+    background-size: cover !important;
+}
+
+.work4{
+    background: url(../images/work4.webp) !important;
+    background-size: cover !important;
+}
+
+.work5{
+    background: url(../images/work5.webp) !important;
+    background-size: cover !important;
+}
+
+.work6{
+    background: url(../images/work6.webp) !important;
+    background-size: cover !important;
+}
+
+.imageHover{
+    background: url(../images/work1.webp);
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.texts h5 {
+    color: rgb(205, 179, 12);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.texts h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.textContent {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    gap: 4rem;
+    transition: 0.3s all;
+}
+
+.imageHover::after {
+    content: "";
+    background-color: #000;
+    top: -50%;
+    right: 0;
+    position: absolute;
+    height: 50%;
+    transition: 0.3s all ease;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.imageHover::before {
+    content: "";
+    background-color: #000;
+    bottom: -50%;
+    right: 0;
+    position: absolute;
+    height: 50%;
+    transition: 0.3s all ease;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.imageHover:hover::after {
+    top: 0;
+}
+
+.imageHover:hover::before {
+    bottom: 0;
+}
+
+.imageHover:hover .textContent {
+    opacity: 1;
+}
+
+.iconText .fa {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.iconText {
+    height: 40px;
+    width: 40px;
+    background: rgb(205, 179, 12);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HOVER SECTION END */
+
+/* SERVICES SECTION START */
+.servicesSec{
+    background: url(../images/bg.webp);
+    padding: 7rem 0;
+}
+
+.servicesIcon:before {content: "\f86d";font-family: 'FontAwesome';font-size: 40px;color: #cdb30c;transition: 0.3s all;}
+
+.servicesIcon {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.services {
+    padding: 30px;
+    background: #1a1a1a;
+    width: 100%;
+    position: relative;
+}
+
+.contentServices h2 {
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.contentServices p {
+    color: #999999;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.servicesContent h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.servicesBtn .fa {
+    color: #cdb30c;
+    border: 2px solid #cdb30c;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    background: #1a1a1a;
+}
+
+.servicesBtn {
+    position: absolute;
+    opacity: 0;
+    bottom: -20px;
+    right: 80px;
+    transition: 0.3s all;
+}
+
+
+.services:hover {
+    background: #cdb30c;
+}
+
+.services:hover .servicesBtn {
+    opacity: 1 !important;
+    right: 40px;
+}
+
+.services:hover .servicesIcon:before {
+    color: #000;
+}
+
+.servicesYellow {
+    background: #cdb30c !important;
+}
+
+.servicesYellow .servicesContent h3 {
+    color: #1a1a1a;
+}
+
+.servicesYellow .servicesIcon:before {
+    color: #1a1a1a;
+}
+
+
+/* SERVICES SECTION END */
+
+.aboutImg img {
+    height: 600px;
+}
+
+.aboutContent h5 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #cab00c;
+}
+
+.aboutContent h2 {
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+.aboutContent p {
+    color: #999999;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+.positionAbout {
+    display: flex;
+    background: #cbb10c;
+    width: 60%;
+    align-items: center;
+    gap: 2rem;
+    position: absolute;
+    padding: 10px 1rem;
+    left: -70px;
+}
+
+.aboutIcon .fa {
+    color: #fff;
+    background: #000;
+    font-size: 35px;
+    padding: 17px;
+    border-radius: 50%;
+}
+
+.aboutExp {
+    color: #fff;
+}
+
+.aboutExp h4 {
+    font-size: 15px;
+}
+
+
+.aboutExp h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+
+.aboutContent {
+    padding-top: 6rem;
+}
+
+
+/*  */
+
+.titleHover {
+    background: #333;
+    text-align: center;
+    padding: 25px 0;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s all;
+    align-items: center;
+    transform: translateY(100px);
+    justify-content: center;
+}
+
+.titleHover img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.titleHover h3 {
+    color: #fff;
+    opacity: 0.2;
+    margin-top: 10px;
+    transition: 0.3s all;
+}
+
+.contentHover {
+    text-align: center;
+    padding: 10px;
+    transform: translateY(-150px);
+    z-index: 0;
+    position: relative;
+    transition: 0.5s all;
+    box-shadow: 0 20px 20px
+    rgb(0 0 0 / 80%);
+}
+
+.boxHover:hover .titleHover {
+    transform: translateY(0px);
+    background: skyblue;
+}
+
+.boxHover:hover .contentHover {
+    transform: translateY(0px);
+}
+
+.boxHover:hover .titleHover h3 {
+    opacity: 1;
+}
